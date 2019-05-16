@@ -6,7 +6,7 @@ endif
 
 syn region dexBold start='*' end='*'
 syn region dexItalic start='/' end='/'
-syn region dexComment start='||' end='\n'
+syn region dexComment start='||' end='\n' containedIn=dexTitle
 syn region dexTitle start='^#' end='\n'
 
 hi link dexTitle Special
